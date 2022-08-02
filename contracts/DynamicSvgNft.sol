@@ -23,7 +23,6 @@ contract DynamicSvgNft is ERC721 {
     }
 
     function svgToImageURI (string memory svg) public pure returns (string memory) {
-        //
         string memory svgBase64Encoded = Base64.encode(bytes(string(abi.encodePacked(svg))));
         return string(abi.encodePacked(base64EncodedSvgPrefix, svgBase64Encoded));
     }
