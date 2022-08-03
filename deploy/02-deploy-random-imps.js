@@ -85,4 +85,4 @@ async function handleTokenUris() {
     return tokenUris
 }
     
-module.exports.tags = ["all", "randomIpfs", "main"]
+module.exports.tags = ["all", "randomIpfs"]
